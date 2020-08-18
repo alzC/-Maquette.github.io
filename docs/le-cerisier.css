@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 .s1{
-  background-image: url(coupe.jpg);
+  background-image: url(docs/COUPE.jpg);
   background-size: cover;
   height: 100vh;
 }
