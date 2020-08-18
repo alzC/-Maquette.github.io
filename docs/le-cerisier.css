@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.s1{
+  background: url(coupe.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.s1 header {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+
+
+
+}
+.s1 header nav ul{
+  font-size: 20px;
+  color: white;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.s1 header nav ul li img{
+
+width: 135px;
+}
+.s1 button{
+  font-size: 30px;
+  font-family: 'Aref Ruqaa', serif;
+  margin-top: 15%;
+  margin-left: 75%;
+  padding-bottom: 35px;
+height: 32px;
+  width: 160px;
+  background: #BD3F32;
+  border-radius: 15px;
+  line-height: 25px;
+  border: none;
+}
+.s1 button a {
+ color: white;
+  text-decoration: none;
+}
+.s1 button:hover{
+
+  background: rgba(208, 19, 23, 0.7);
+ transition: 0.5s;
+}
+.s1 button a:hover{
+  color:white;
+
+}
+.s1{
+  display:flex;
+}
+
+.G{
+border-bottom: 2px solid #A08E68;
+color:white;
+}
+main{
+
+  height: 100vh;
+}
+main .description1{
+  text-align: center;
+}
+main .description1 p{
+
+  margin-top: 30px;
+  font-size: 20px;
+  font-family:  'Roboto', arial, sans-serif;
+  font-weight: 300;
+  padding: 0px 190px ;
+}
+main a img:nth-child(2n+1){
+
+  height: 85px;
+  width: 160px;
+
+
+  margin: 15px 35px;
+}
+main a img:nth-child(2n+2){
+  height: 85px;
+  width:160px;
+
+  border: none;
+  margin: 15px 35px;
+
+}
+main section{
+  width: 100%;
+  display: flex;
+}
+.reveal{
+  opacity:0;
+  transform: translate(-30px;)
+}
+.reveal-visible{
+  opacity: 1;
+  transform:  translateY(20px);
+  transition: 4s;
+}
+
+main section .aside{
+
+  text-align: center;
+  margin-left: 120px;
+  width: 400px;
+  height: 600px;
+  background: rgba(8, 8, 8, .04);
+}
+main section .aside h2{
+  margin-right: 30px;
+  font-size: 42px;
+  padding-top:60px;
+  font-family:  'Aref ruqaa', arial, sans-serif;
+  color: #A08E68;
+}
+main section .aside  p{
+  margin-right: 30px;
+  padding: 50px;
+  font-size: 18px;
+  font-family:  'Roboto', arial, sans-serif;
+  font-weight: 300;
+  line-height:35px;
+}
+main section  img{
+  margin-left: -50px;
+  margin-top: 90px;
+  height: 428px;
+  width: 765px;
+}
